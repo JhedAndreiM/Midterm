@@ -1,0 +1,22 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="734" cy="170.5" rx="953" ry="372.5" fill="#1B1E23"/>
+<line x1="4.37114e-08" y1="714.5" x2="1440" y2="714.5" stroke="white" stroke-opacity="0.5"/>
+<line x1="-4.37114e-08" y1="722.5" x2="1440" y2="722.5" stroke="white" stroke-opacity="0.5"/>
+<line x1="4.37114e-08" y1="733.5" x2="1440" y2="733.5" stroke="white" stroke-opacity="0.5"/>
+<line x1="-4.37114e-08" y1="740.5" x2="1440" y2="740.5" stroke="white" stroke-opacity="0.5"/>
+<line x1="4.37114e-08" y1="749.5" x2="1440" y2="749.5" stroke="white" stroke-opacity="0.5"/>
+<line x1="-4.37114e-08" y1="758.5" x2="1440" y2="758.5" stroke="white" stroke-opacity="0.5"/>
+<line x1="4.37114e-08" y1="770.5" x2="1440" y2="770.5" stroke="white" stroke-opacity="0.5"/>
+<line x1="-8.74228e-08" y1="783" x2="1440" y2="783" stroke="white" stroke-opacity="0.5" stroke-width="2"/>
+<line x1="8.74228e-08" y1="797" x2="1440" y2="797" stroke="white" stroke-opacity="0.5" stroke-width="2"/>
+<line x1="-8.74228e-08" y1="831" x2="1440" y2="831" stroke="white" stroke-opacity="0.5" stroke-width="2"/>
+<line x1="-8.74228e-08" y1="851" x2="1440" y2="851" stroke="white" stroke-opacity="0.5" stroke-width="2"/>
+<line x1="8.74228e-08" y1="874" x2="1440" y2="874" stroke="white" stroke-opacity="0.5" stroke-width="2"/>
+<line x1="1.09278e-07" y1="901.75" x2="1440" y2="901.75" stroke="white" stroke-opacity="0.5" stroke-width="2.5"/>
+<line x1="-1.09278e-07" y1="935.75" x2="1440" y2="935.75" stroke="white" stroke-opacity="0.5" stroke-width="2.5"/>
+<line x1="1.09278e-07" y1="974.75" x2="1440" y2="974.75" stroke="white" stroke-opacity="0.5" stroke-width="2.5"/>
+<line x1="1.31134e-07" y1="1022.5" x2="1440" y2="1022.5" stroke="white" stroke-opacity="0.5" stroke-width="3"/>
+<line x1="-8.74228e-08" y1="812" x2="1440" y2="812" stroke="white" stroke-opacity="0.5" stroke-width="2"/>
+<path d="M48 714L0 729" stroke="white" stroke-opacity="0.5"/>
+<path d="M96.5 714.5L0 743M144.5 714.5L0 759.5M190 714.5L0 780.5M240.5 714.5L0 801M287.5 714.5L0 828.5M338.5 714.5L0 863M386.5 714.5L0 907.5M434.5 714.5L0 966.5M483 714.5L0 1050M532.5 714.5L0 1175M579.5 714.5L0 1381.5M627 714.5L211 1431M675 714.5L466.5 1431M724 714.5V1431M772.5 714.5L978.5 1431M820.5 714.5L1233 1431M867.5 714.5L1442.5 1378.5M918.5 714.5L1442.5 1171.5M968 714.5L1442.5 1047.5M1013 714.5L1442.5 964M1059.5 714.5L1442.5 904M1108.5 714.5L1442.5 862M1158.5 714.5L1442.5 827.5M1204.5 714.5L1442.5 797.5M1256.5 714.5L1442.5 777M1302.5 714.5L1442.5 758.5M1350 714.5L1442.5 743.5M1398.5 714.5L1442.5 730.5" stroke="white" stroke-opacity="0.5" stroke-width="2"/>
+</svg>

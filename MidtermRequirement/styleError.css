@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh; 
+    overflow: hidden;
+}
+.syne-h1 {
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+body {
+    display: flex;
+    flex-direction: column; 
+    background-color: #0F1014;
+    background-image: url('img/background.svg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.mainContainer {
+    display: flex;
+    flex: 1; 
+    flex-direction: column;
+    gap:2px
+}
+
+.divForm{
+   
+    flex: 1;
+}
+.divCard{
+    flex:1.6;
+    
+}
+.divForm{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.divForm form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    gap:10px
+}
+button{
+    background-color: #1FFF5D;
+    width: 268px;
+    height: 51px;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.divForm h1{
+    color:white;
+    font-size: 64px;
+    padding-bottom: 20px;
+}
+.divForm h3{
+    color:white;
+    padding-bottom: 50px;
+}
+input{
+    width: 403px;
+    height: 67px;
+    background-color: #303338;
+    border: none;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* para sa cards */
+.divCard {
+    display: flex;
+    perspective: 800px;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 283px;
+    height: 374px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.error{
+    position: absolute;
+    font-size: 20px;
+    color: red;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 55%;
+}
+/* h-offset v-offset blur spread */
+.card:nth-child(1) { 
+    transform: rotateY(40deg) translateX(33px) translateY(10px); 
+    box-shadow: -1px 0 30px 5px rgba(0, 0, 0, 1);
+    background-image: url('img/Card1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.card:nth-child(2) { 
+    transform: rotateY(40deg) translateX(15px) translateY(10px); 
+    box-shadow: -10px 0 30px 5px rgba(0, 0, 0, 1);
+    background-image: url('img/Card2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.card:nth-child(3) { 
+    width: 364px;
+    height: 457px;
+    z-index: 2;
+    box-shadow: 
+        -10px 0 30px 5px rgba(0, 0, 0, 1),  
+        10px 0 30px 5px rgba(0, 0, 0, 1);   
+    background-image: url('img/Card3.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.card:nth-child(4) { 
+    transform: rotateY(-40deg) translateX(-15px) translateY(10px); 
+    z-index: 1;
+    box-shadow: 10px 0 30px 5px rgba(0, 0, 0, 1);
+    background-image: url('img/Card4.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.card:nth-child(5) { 
+    transform: rotateY(-40deg) translateX(-33px) translateY(10px); 
+    box-shadow: 1px 0 30px 5px rgba(0, 0, 0, 1);
+    background-image: url('img/Card5.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    
+}
+.glow{
+    position: absolute;
+    width: 1800px;
+    height: 187px;
+    left: 60%;
+    transform: translateX(-50%);
+    bottom: 15%;
+    z-index: -1;
+}
+
