@@ -74,5 +74,5 @@ jobs:
         with:
           app-name: 'UniTrade'
           slot-name: 'Production'
-          package: .
+          package: ./MidtermRequirement
           
